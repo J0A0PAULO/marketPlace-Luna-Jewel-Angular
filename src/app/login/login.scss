@@ -1,0 +1,174 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+  margin: 190px 0;
+}
+
+.login {
+  box-shadow: 0.5px 0.5px 5px 0.5px #ccc;
+  width: 465px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin: 81px 0 45px 0;
+  font-size: 36px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input[type="email"] {
+  width: 365px;
+  height: 47px;
+  outline: none;
+  border: none;
+  border: solid 0.5px #ccc;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+input[type="email"]::placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+input[type="email"]:focus {
+  border: solid 0.5px #4d4d4d;
+}
+
+input[type="password"] {
+  width: 365px;
+  height: 47px;
+  outline: none;
+  border: none;
+  border: solid 0.5px #ccc;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+input[type="password"]::placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+input[type="password"]:focus {
+  border: solid 0.5px #4d4d4d;
+}
+
+.cadastra-e-recuperar {
+  display: flex;
+  gap: 120px;
+  opacity: 40%;
+  margin: 10px 0 40px 0;
+}
+
+p {
+  text-align: start;
+  display: flex;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form button {
+  width: 154px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  background: #62DAA6;
+}
+
+@media (width: 430px) {
+  .container-login {
+    display: flex;
+    justify-content: center;
+    margin: 93.5px 0;
+  }
+
+  .login {
+    box-shadow: 0px 0.5px 5px 0px #ccc;
+    width: 350px;
+    height: 416px;
+    border-radius: 5px;
+  }
+
+
+
+  h2 {
+    text-align: center;
+    margin: 67px 0 25px 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  input[type="email"] {
+    width: 250px;
+    height: 47px;
+    outline: none;
+    border: none;
+    border: solid 0.5px #ccc;
+    border-radius: 15px;
+    margin-bottom: 46px;
+
+  }
+
+  input[type="email"]::placeholder {
+    color: black;
+    opacity: 70%;
+  }
+
+
+  input[type="password"] {
+    width: 250px;
+    height: 47px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border: solid 0.5px #ccc;
+    border-radius: 15px;
+  }
+
+  input[type="password"]::placeholder {
+    color: black;
+    opacity: 70%;
+  }
+
+  .cadastra-e-recuperar {
+    display: flex;
+    gap: 30px;
+    opacity: 40%;
+    margin: 10px 0 40px 0;
+  }
+
+  p {
+    text-align: start;
+
+    display: flex;
+    cursor: pointer;
+  }
+
+  form button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    background: #62DAA6;
+  }
+}

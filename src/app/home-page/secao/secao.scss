@@ -1,0 +1,68 @@
+header h1 {
+  text-align: center;
+  margin: 172px 0px;
+}
+
+.secao-grid {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+}
+
+
+
+
+img {
+  max-width: 321px;
+  max-height: 321px;
+}
+
+.card {
+  text-align: center;
+  transition: transform 500ms ease;
+
+}
+
+.card h4 {
+  margin-top: 109px;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media (width : 430px) {
+
+  header h1 {
+    text-align: center;
+    margin: 83px 0px;
+    font-size: 18px;
+  }
+
+  .secao-grid {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+  }
+
+
+  img {
+    max-width: 151px;
+    max-height: 151px;
+  }
+
+  .card {
+    text-align: center;
+
+  }
+
+  .card h4 {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}

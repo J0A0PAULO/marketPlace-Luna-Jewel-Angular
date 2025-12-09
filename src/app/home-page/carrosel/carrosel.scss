@@ -1,0 +1,70 @@
+.container-carrosel {
+  position: relative;
+}
+
+img {
+  max-width: 1905px;
+}
+
+
+form {
+  position: absolute;
+  display: flex;
+  gap: 1770px;
+  bottom: 50%;
+  margin-bottom: -20px;
+  left: 50px;
+}
+
+form button {
+  background: none;
+  border: none;
+  opacity: 60%;
+  transition: opacity 10ms ease;
+}
+
+form button:hover {
+  opacity: 100%;
+}
+
+@media (width: 430px) {
+
+  .container-carrosel {
+    position: relative;
+  }
+
+  img {
+    max-width: 430px;
+    height: 223px;
+  }
+
+  i img {
+    width: 10px;
+    height: 20px;
+  }
+
+  form {
+    position: absolute;
+    display: flex;
+    gap: 365px;
+    bottom: 50%;
+    margin-bottom: -10px;
+    left: 20px;
+  }
+
+
+
+  form button {
+    width: 10px;
+    background: none;
+    border: none;
+    opacity: 80%;
+
+    transition: opacity 10ms ease;
+  }
+
+  form button:hover {
+    opacity: 100%;
+  }
+
+}

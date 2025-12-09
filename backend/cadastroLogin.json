@@ -2,8 +2,9 @@
  "login" : [
     {
       "id" : "1",
-      "usuario": "Joao@gmail.com",
-      "senha": "123"
+      "email": "Joao@gmail.com",
+      "senha": "123",
+      "confirmarSenha" : "123"
     }
  ]
 }

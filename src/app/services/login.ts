@@ -24,7 +24,7 @@ export class Login {
   }
 
   atualizar(login : LoginService): Observable<LoginService> {
-    return this.http.put<LoginService>(`${this.API}/${login.id}`, login)
+    return this.http.post<LoginService>(`${this.API}/${login.id}`, login)
   }
   
   remover(id : string | number) : Observable<any>{

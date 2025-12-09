@@ -1,0 +1,41 @@
+header {
+  margin: 162px 0 86px 0;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  max-width: 767px;
+  max-height: 252px;
+}
+
+@media (width: 430px) {
+
+  header {
+    margin: 81px 0 74px 0;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  section img {
+    max-width: 322px;
+    max-height: 106px;
+  }
+
+}

@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px 1px #ccc;
+  height: 100px;
+
+}
+
+footer h2 {
+  font-size: 24px;
+}
+
+@media (width: 430px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    height: 100px;
+
+  }
+
+  footer h2 {
+    font-size: 16px;
+  }
+}

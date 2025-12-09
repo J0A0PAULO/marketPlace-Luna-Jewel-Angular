@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { FormLogin } from './form-login/form-login';
+import { Header } from "../header/header";
+import { Footer } from "../footer/footer";
 
 @Component({
   selector: 'login',
-  imports: [FormLogin, RouterLink],
+  imports: [RouterLink, Header, Footer],
   templateUrl: './login.html',
   styleUrl: './login.scss',
 })

@@ -1,0 +1,163 @@
+header h2 {
+  text-align: center;
+  margin: 201px 0px 201px 0px;
+  font-size: 36px;
+}
+
+.grid-card {
+  display: flex;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 320px);
+  gap: 55px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  box-shadow: 0.5px 1px 4px 0.5px #ccc;
+  gap: 16px;
+  transition: transform 200ms ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  max-width: 194px;
+  max-height: 137px;
+  display: flex;
+  margin: 27px 61px 31px 65px;
+}
+
+.info-card {
+  margin-left: 37px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-card h3 {
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 233px;
+  height: auto;
+}
+
+.preco-cheio {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.info-card h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.parcela {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border-radius: 22px;
+  background: #62DAA6;
+  border: none;
+  max-width: 125px;
+  height: 40px;
+  margin: 14px 107px 19px 88px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #31a172;
+}
+
+@media (width: 430px) {
+
+  header h2 {
+    text-align: center;
+    margin: 125px 0px 90px 0px; 
+    font-size: 24px;
+  }
+
+  .grid-card {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 303px);
+    gap: 55px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    box-shadow: 0.5px 1px 4px 0.5px #ccc;
+    gap: 16px;
+    transition: transform 200ms ease;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  .card img {
+    max-width: 194px;
+    max-height: 137px;
+    display: flex;
+    margin: 27px 61px 31px 65px;
+  }
+
+  .info-card {
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-card h3 {
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 233px;
+    height: auto;
+  }
+
+  .preco-cheio {
+    text-decoration: line-through;
+    font-size: 12px;
+  }
+
+  .info-card h4 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .parcela {
+    font-size: 14px;
+  }
+
+  button {
+    border-radius: 22px;
+    background: #62DAA6;
+    border: none;
+    max-width: 125px;
+    height: 40px;
+    margin: 14px 107px 19px 88px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  button:hover {
+    background: #31a172;
+  }
+
+}

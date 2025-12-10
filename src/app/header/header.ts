@@ -4,7 +4,7 @@ import { RouterLink } from "@angular/router";
 
 
 @Component({
-  selector: 'componente-header',
+  selector: 'app-header',
   imports: [FormsModule, RouterLink],
   templateUrl: './header.html',
   styleUrl: './header.scss',

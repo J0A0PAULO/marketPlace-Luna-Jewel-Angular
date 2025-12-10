@@ -80,11 +80,18 @@ p {
 
 form button {
   width: 154px;
-  height: 35px;
-  border-radius: 15px;
+  height: 40px;
+  border-radius: 20px;
   border: none;
+  font-size: 16px;
   font-weight: bold;
   background: #62DAA6;
+  cursor: pointer;
+  transition: background 400ms ease;
+}
+
+form button:hover {
+  background: #3e9c73;
 }
 
 @media (width: 430px) {
@@ -151,14 +158,14 @@ form button {
 
   .cadastra-e-recuperar {
     display: flex;
-    gap: 30px;
+    gap: 91px;
     opacity: 40%;
     margin: 10px 0 40px 0;
   }
 
   p {
     text-align: start;
-
+    font-size: 12px;
     display: flex;
     cursor: pointer;
   }
@@ -166,9 +173,15 @@ form button {
   form button {
     width: 120px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     font-weight: bold;
     background: #62DAA6;
+    transition: background 400ms ease;
   }
+
+  form button:hover {
+    background: #3e9c73;
+  }
+
 }
